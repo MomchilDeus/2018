@@ -1,12 +1,12 @@
 # 2018
 Learning plan for 2018
-- [ ]
-- [x]
-- [ ]
-- [x]
-* [ ]
-* [ ]
-* [x]
-* [ ]
-* [ ]
-* [x]
+- [ ] This is an item
+- [x] Another item
+- [ ] Testy test
+- [x] Omega
+* [ ] Balthazar
+* [ ] Sylvanas
+* [x] Viper
+* [ ] Eleven
+* [ ] Rick
+* [x] Bojack
