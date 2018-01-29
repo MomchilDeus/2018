@@ -3,9 +3,9 @@ Learning plan for 2018
 
 ## Progress
 
-Total Points: 80
-Current Course:
-Courses Completed: 0
+Total Points: 80 <br>
+Current Course: <br>
+Courses Completed: 0 <br>
 Projects Completed: 0
 
 | Date Finished |          Activity               | Points |     Links    |
@@ -15,7 +15,7 @@ Projects Completed: 0
 |  24/1/2018    | 4.2.1 Read                      |   10   |  |
 
 ### Part 1 - Elm
-#### Official Elm Introduction
+#### [Official Elm Introduction](https://guide.elm-lang.org)
 - [ ] Go through the official Elm introduction (420 points total)
   - [x] 1. Introduction (10 points)
   - [x] 2. Install (10 points)
@@ -76,7 +76,7 @@ Projects Completed: 0
     - [ ] 8.3. Modules (10 points)
     - [ ] 8.4. More (10 points)
 
-#### Elm Exercism Exercises
+#### [Elm Exercism Exercises](exercism.io/languages/elm/exercises)
 1. [ ] Hello World ( 10 points )
 2. [ ] Bob ( 10 points )
 3. [ ] Leap ( 20 points )
@@ -116,12 +116,20 @@ Projects Completed: 0
 
 #### Elm Course
 
+
 #### Elm Projects
 1. FreeCodeCamp's Front End Projects
-  - [ ] Tribute page ( 50 points )
-  - [ ] Personal portfolio webpage ( 100 points )
-  - [ ] Random quote machine ( 50 points )
-  - [ ] Local weather app ( 50 points )
-  - [ ] Wikipedia viewer ( 100 points )
-  - [ ] Use the Twitch.tc JSON API ( 150 points )
+  - [ ] [Tribute page](https://www.freecodecamp.org/challenges/build-a-tribute-page) ( 50 points )
+  - [ ] [Personal portfolio webpage](https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage) ( 100 points )
+  - [ ] [Random quote machine](https://www.freecodecamp.org/challenges/build-a-random-quote-machine) ( 50 points )
+  - [ ] [Local weather app](https://www.freecodecamp.org/challenges/show-the-local-weather) ( 50 points )
+  - [ ] [Wikipedia viewer](https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer) ( 100 points )
+  - [ ] [Use the Twitch.tc JSON API](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api) ( 150 points )
 2. Other Elm projects
+
+## To Do
+- [ ] Add Course(s)
+- [ ] Add Descriptions
+- [ ] Add Other Elm projects
+- [ ] Add Part 2
+
