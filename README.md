@@ -3,49 +3,58 @@ Learning plan for 2018
 
 ## Progress
 
+Total Points: 80
 Current Course:
 Courses Completed: 0
-Projects Completed
+Projects Completed: 0
 
-| Date Finished |          Activity          | Points |     Links    |
-| ------------- | -------------------------- | ------ | -------------------------------------- |
-|  |  |  |  |
+| Date Finished |          Activity               | Points |     Links    |
+| ------------- | ------------------------------  | ------ | -------------------------------------- |
+| <20/1/2018    | 1., 2., 3., 4.1.1. Read & Bonus |   50   |  |
+| <22/1/2018    | 4.1.2. Read, 4.2.3. Read        |   20   |  | 
+|  24/1/2018    | 4.2.1 Read                      |   10   |  |
 
 ### Part 1 - Elm
 #### Official Elm Introduction
-- [ ] Go through the official Elm introduction (390 points total)
-  - [ ] 1. Introduction (10 points)
-  - [ ] 2. Install (10 points)
-  - [ ] 3. Core Language (10 points)
-  - [ ] 4. The Elm Architecture (240 points total)
-    - [ ] 4.1. User Input (120 points total)
-      - [ ] 4.1.1. Buttons (30 points total)
-        - [ ] Bonus exercises (10 points)
+- [ ] Go through the official Elm introduction (420 points total)
+  - [x] 1. Introduction (10 points)
+  - [x] 2. Install (10 points)
+  - [x] 3. Core Language (10 points)
+  - [ ] 4. The Elm Architecture (270 points total)
+    - [ ] 4.1. User Input (110 points total)
+      - [ ] 4.1.1. Buttons (40 points total)
+        - [x] Read ( 10 points )
+        - [x] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
       - [ ] 4.1.2. Text Fields (30 points total)
-        - [ ] Bonus exercises (10 points)
+        - [x] Read ( 10 points )
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
-      - [ ] 4.1.3. Forms (30 points total)
+      - [ ] 4.1.3. Forms (40 points total)
+        - [x] Read ( 10 points )
         - [ ] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
       - [ ] 4.1.4. More
-    - [ ] 4.2. Effects (120 points total)
-      - [ ] 4.2.1 Random (30 points total)
+    - [ ] 4.2. Effects (160 points total)
+      - [ ] 4.2.1 Random (40 points total)
+        - [x] Read ( 10 points )
         - [ ] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
-      - [ ] 4.2.2. HTTP (30 points total)
+      - [ ] 4.2.2. HTTP (40 points total)
+        - [ ] Read ( 10 points )
         - [ ] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
-      - [ ] 4.2.3. Time (30 points total)
+      - [ ] 4.2.3. Time (40 points total)
+        - [ ] Read ( 10 points )
         - [ ] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
-      - [ ] 4.2.4. Web Sockets (30 points total)
+      - [ ] 4.2.4. Web Sockets (40 points total)
+        - [ ] Read ( 10 points )
         - [ ] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
