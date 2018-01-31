@@ -3,7 +3,7 @@ Learning plan for 2018
 
 ## Progress
 
-Total Points: 80 <br>
+Total Points: 90 <br>
 Current Course: <br>
 Courses Completed: 0 <br>
 Projects Completed: 0
@@ -11,8 +11,9 @@ Projects Completed: 0
 | Date Finished |          Activity               | Points |     Links    |
 | ------------- | ------------------------------  | ------ | -------------------------------------- |
 | <20/1/2018    | 1., 2., 3., 4.1.1. Read & Bonus |   50   |  |
-| <22/1/2018    | 4.1.2. Read, 4.2.3. Read        |   20   |  | 
+| <22/1/2018    | 4.1.2. Read, 4.2.3. Read        |   20   |  |
 |  24/1/2018    | 4.2.1 Read                      |   10   |  |
+|  31/1/2018    | 4.1.3 Bonus exercises           |   10   |  |
 
 ### Part 1 - Elm
 #### [Official Elm Introduction](https://guide.elm-lang.org)
@@ -33,7 +34,7 @@ Projects Completed: 0
         - [ ] Style with style-elements (10 points)
       - [ ] 4.1.3. Forms (40 points total)
         - [x] Read ( 10 points )
-        - [ ] Bonus exercises (10 points)
+        - [x] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
       - [ ] 4.1.4. More
@@ -71,7 +72,7 @@ Projects Completed: 0
     - [ ] 7.1. JSON (10 points)
     - [ ] 7.2. JavaScript (10 points)
   - [ ] 8. Scaling The Elm Architecture (40 points total)
-    - [ ] 8.1. Labeled Checkboxes (10 points) 
+    - [ ] 8.1. Labeled Checkboxes (10 points)
     - [ ] 8.2. Radio Buttons (10 points)
     - [ ] 8.3. Modules (10 points)
     - [ ] 8.4. More (10 points)
@@ -132,4 +133,3 @@ Projects Completed: 0
 - [ ] Add Descriptions
 - [ ] Add Other Elm projects
 - [ ] Add Part 2
-
