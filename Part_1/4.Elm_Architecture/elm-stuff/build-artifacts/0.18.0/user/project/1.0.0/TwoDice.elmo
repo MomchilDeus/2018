@@ -1,0 +1,109 @@
+var _user$project$TwoDice$subscriptions = function (model) {
+	return _elm_lang$core$Platform_Sub$none;
+};
+var _user$project$TwoDice$Model = F2(
+	function (a, b) {
+		return {die1: a, die2: b};
+	});
+var _user$project$TwoDice$init = {
+	ctor: '_Tuple2',
+	_0: A2(_user$project$TwoDice$Model, 0, 0),
+	_1: _elm_lang$core$Platform_Cmd$none
+};
+var _user$project$TwoDice$NewFace2 = function (a) {
+	return {ctor: 'NewFace2', _0: a};
+};
+var _user$project$TwoDice$NewFace1 = function (a) {
+	return {ctor: 'NewFace1', _0: a};
+};
+var _user$project$TwoDice$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		switch (_p0.ctor) {
+			case 'Roll':
+				return {
+					ctor: '_Tuple2',
+					_0: model,
+					_1: _elm_lang$core$Platform_Cmd$batch(
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$core$Random$generate,
+								_user$project$TwoDice$NewFace1,
+								A2(_elm_lang$core$Random$int, 1, 6)),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$core$Random$generate,
+									_user$project$TwoDice$NewFace2,
+									A2(_elm_lang$core$Random$int, 1, 6)),
+								_1: {ctor: '[]'}
+							}
+						})
+				};
+			case 'NewFace1':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{die1: _p0._0}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			default:
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{die2: _p0._0}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+		}
+	});
+var _user$project$TwoDice$Roll = {ctor: 'Roll'};
+var _user$project$TwoDice$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$button,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Events$onClick(_user$project$TwoDice$Roll),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Roll Dice'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$h1,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(
+							_elm_lang$core$Basics$toString(model.die1)),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$h1,
+						{ctor: '[]'},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text(
+								_elm_lang$core$Basics$toString(model.die2)),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		});
+};
+var _user$project$TwoDice$main = _elm_lang$html$Html$program(
+	{init: _user$project$TwoDice$init, subscriptions: _user$project$TwoDice$subscriptions, update: _user$project$TwoDice$update, view: _user$project$TwoDice$view})();
