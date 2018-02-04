@@ -3,7 +3,7 @@ Learning plan for 2018
 
 ## Progress
 
-Total Points: 90 <br>
+Total Points: 110 <br>
 Current Course: <br>
 Courses Completed: 0 <br>
 Projects Completed: 0
@@ -14,6 +14,7 @@ Projects Completed: 0
 | <22/1/2018    | 4.1.2. Read, 4.2.3. Read        |   20   |  |
 |  24/1/2018    | 4.2.1 Read                      |   10   |  |
 |  31/1/2018    | 4.1.3 Bonus exercises           |   10   |  |
+|   4/2/2018    | 4.2.2 Read & Bonus exercises    |   20   |  |
 
 ### Part 1 - Elm
 #### [Official Elm Introduction](https://guide.elm-lang.org)
@@ -45,8 +46,8 @@ Projects Completed: 0
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
       - [ ] 4.2.2. HTTP (40 points total)
-        - [ ] Read ( 10 points )
-        - [ ] Bonus exercises (10 points)
+        - [x] Read ( 10 points )
+        - [x] Bonus exercises (10 points)
         - [ ] Style with elm-css (10 points)
         - [ ] Style with style-elements (10 points)
       - [ ] 4.2.3. Time (40 points total)
