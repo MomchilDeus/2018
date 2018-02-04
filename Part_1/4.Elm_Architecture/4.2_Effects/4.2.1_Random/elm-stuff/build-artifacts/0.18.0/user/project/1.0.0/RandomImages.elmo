@@ -1,0 +1,129 @@
+var _user$project$RandomImages$subscriptions = function (model) {
+	return _elm_lang$core$Platform_Sub$none;
+};
+var _user$project$RandomImages$Model = F3(
+	function (a, b, c) {
+		return {dieFace: a, current: b, faces: c};
+	});
+var _user$project$RandomImages$init = {
+	ctor: '_Tuple2',
+	_0: A3(
+		_user$project$RandomImages$Model,
+		'https://picsum.photos/400/400/?image=575',
+		0,
+		{
+			ctor: '::',
+			_0: 'https://picsum.photos/400/400/?image=575',
+			_1: {
+				ctor: '::',
+				_0: 'https://picsum.photos/400/400/?image=60',
+				_1: {
+					ctor: '::',
+					_0: 'https://picsum.photos/400/400/?image=69',
+					_1: {
+						ctor: '::',
+						_0: 'https://picsum.photos/400/400/?image=120',
+						_1: {
+							ctor: '::',
+							_0: 'https://picsum.photos/400/400/?image=300',
+							_1: {
+								ctor: '::',
+								_0: 'https://picsum.photos/400/400/?image=420',
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		}),
+	_1: _elm_lang$core$Platform_Cmd$none
+};
+var _user$project$RandomImages$NewFace = function (a) {
+	return {ctor: 'NewFace', _0: a};
+};
+var _user$project$RandomImages$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		if (_p0.ctor === 'Roll') {
+			return {
+				ctor: '_Tuple2',
+				_0: model,
+				_1: A2(
+					_elm_lang$core$Random$generate,
+					_user$project$RandomImages$NewFace,
+					A2(_elm_lang$core$Random$int, 0, 5))
+			};
+		} else {
+			var _p1 = _p0._0;
+			return {
+				ctor: '_Tuple2',
+				_0: _elm_lang$core$Native_Utils.update(
+					model,
+					{
+						dieFace: A2(
+							_elm_lang$core$Maybe$withDefault,
+							'None',
+							A2(
+								_elm_lang$core$Array$get,
+								_p1,
+								_elm_lang$core$Array$fromList(model.faces))),
+						current: _p1
+					}),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		}
+	});
+var _user$project$RandomImages$Roll = {ctor: 'Roll'};
+var _user$project$RandomImages$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h1,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(
+						_elm_lang$core$Basics$toString(model.current + 1)),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$img,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$src(model.dieFace),
+						_1: {ctor: '[]'}
+					},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$button,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Events$onClick(_user$project$RandomImages$Roll),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Roll'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		});
+};
+var _user$project$RandomImages$main = _elm_lang$html$Html$program(
+	{init: _user$project$RandomImages$init, subscriptions: _user$project$RandomImages$subscriptions, update: _user$project$RandomImages$update, view: _user$project$RandomImages$view})();
