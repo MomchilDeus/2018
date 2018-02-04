@@ -128,7 +128,7 @@ Projects Completed: 0
   - [ ] [Wikipedia viewer](https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer) ( 100 points )
   - [ ] [Use the Twitch.tc JSON API](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api) ( 150 points )
 2. Other Elm projects
-
+  - Toki Pona website (either elm-css or style-elements, preferable the latter)
 ## To Do
 - [ ] Add Course(s)
 - [ ] Add Descriptions
